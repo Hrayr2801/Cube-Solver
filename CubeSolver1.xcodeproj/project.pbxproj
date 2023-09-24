@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3862B08A2A8A1B8800E4BEFE /* OLL raw.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3862B0892A8A1B8800E4BEFE /* OLL raw.txt */; };
+		3862B08D2A8A319D00E4BEFE /* OLL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3862B08C2A8A319D00E4BEFE /* OLL.txt */; };
+		3862B0902A8A6F2300E4BEFE /* PLL raw.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3862B08F2A8A6F2300E4BEFE /* PLL raw.txt */; };
+		3869449E2A8B61A300B7D683 /* PLL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3869449D2A8B61A300B7D683 /* PLL.txt */; };
 		3874FDAF2A83E627003FD4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874FDAE2A83E627003FD4D1 /* AppDelegate.swift */; };
 		3874FDB12A83E627003FD4D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874FDB02A83E627003FD4D1 /* SceneDelegate.swift */; };
 		3874FDB32A83E627003FD4D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874FDB22A83E627003FD4D1 /* ViewController.swift */; };
 		3874FDB62A83E627003FD4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3874FDB42A83E627003FD4D1 /* Main.storyboard */; };
 		3874FDB82A83E628003FD4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3874FDB72A83E628003FD4D1 /* Assets.xcassets */; };
 		3874FDBB2A83E628003FD4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3874FDB92A83E628003FD4D1 /* LaunchScreen.storyboard */; };
+		3874FDC72A83E663003FD4D1 /* CubeOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874FDC32A83E663003FD4D1 /* CubeOperator.swift */; };
+		3874FDC82A83E663003FD4D1 /* LinkedCubeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874FDC42A83E663003FD4D1 /* LinkedCubeList.swift */; };
+		3874FDC92A83E663003FD4D1 /* CubeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874FDC52A83E663003FD4D1 /* CubeEngine.swift */; };
+		3874FDCA2A83E663003FD4D1 /* CubePermutator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3874FDC62A83E663003FD4D1 /* CubePermutator.swift */; };
+		3882E7882A84B93A00EBB841 /* CFOPSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882E7872A84B93A00EBB841 /* CFOPSolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3862B0892A8A1B8800E4BEFE /* OLL raw.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OLL raw.txt"; sourceTree = "<group>"; };
+		3862B08C2A8A319D00E4BEFE /* OLL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OLL.txt; sourceTree = "<group>"; };
+		3862B08F2A8A6F2300E4BEFE /* PLL raw.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PLL raw.txt"; sourceTree = "<group>"; };
+		3869449D2A8B61A300B7D683 /* PLL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PLL.txt; sourceTree = "<group>"; };
 		3874FDAB2A83E627003FD4D1 /* CubeSolver1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeSolver1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3874FDAE2A83E627003FD4D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3874FDB02A83E627003FD4D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,11 @@
 		3874FDB72A83E628003FD4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3874FDBA2A83E628003FD4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3874FDBC2A83E628003FD4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3874FDC32A83E663003FD4D1 /* CubeOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeOperator.swift; sourceTree = "<group>"; };
+		3874FDC42A83E663003FD4D1 /* LinkedCubeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedCubeList.swift; sourceTree = "<group>"; };
+		3874FDC52A83E663003FD4D1 /* CubeEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubeEngine.swift; sourceTree = "<group>"; };
+		3874FDC62A83E663003FD4D1 /* CubePermutator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubePermutator.swift; sourceTree = "<group>"; };
+		3882E7872A84B93A00EBB841 /* CFOPSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFOPSolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3860CBBD2A8910D800A3D4D0 /* CFOP */ = {
+			isa = PBXGroup;
+			children = (
+				3882E7872A84B93A00EBB841 /* CFOPSolver.swift */,
+				3862B0892A8A1B8800E4BEFE /* OLL raw.txt */,
+				3862B08C2A8A319D00E4BEFE /* OLL.txt */,
+				3862B08F2A8A6F2300E4BEFE /* PLL raw.txt */,
+				3869449D2A8B61A300B7D683 /* PLL.txt */,
+			);
+			path = CFOP;
+			sourceTree = "<group>";
+		};
 		3874FDA22A83E627003FD4D1 = {
 			isa = PBXGroup;
 			children = (
@@ -59,12 +89,25 @@
 				3874FDAE2A83E627003FD4D1 /* AppDelegate.swift */,
 				3874FDB02A83E627003FD4D1 /* SceneDelegate.swift */,
 				3874FDB22A83E627003FD4D1 /* ViewController.swift */,
+				3882E7862A84B90100EBB841 /* HBCube */,
 				3874FDB42A83E627003FD4D1 /* Main.storyboard */,
 				3874FDB72A83E628003FD4D1 /* Assets.xcassets */,
 				3874FDB92A83E628003FD4D1 /* LaunchScreen.storyboard */,
 				3874FDBC2A83E628003FD4D1 /* Info.plist */,
 			);
 			path = CubeSolver1;
+			sourceTree = "<group>";
+		};
+		3882E7862A84B90100EBB841 /* HBCube */ = {
+			isa = PBXGroup;
+			children = (
+				3874FDC52A83E663003FD4D1 /* CubeEngine.swift */,
+				3874FDC32A83E663003FD4D1 /* CubeOperator.swift */,
+				3874FDC62A83E663003FD4D1 /* CubePermutator.swift */,
+				3874FDC42A83E663003FD4D1 /* LinkedCubeList.swift */,
+				3860CBBD2A8910D800A3D4D0 /* CFOP */,
+			);
+			path = HBCube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3874FDBB2A83E628003FD4D1 /* LaunchScreen.storyboard in Resources */,
+				3869449E2A8B61A300B7D683 /* PLL.txt in Resources */,
+				3862B0902A8A6F2300E4BEFE /* PLL raw.txt in Resources */,
 				3874FDB82A83E628003FD4D1 /* Assets.xcassets in Resources */,
+				3862B08A2A8A1B8800E4BEFE /* OLL raw.txt in Resources */,
+				3862B08D2A8A319D00E4BEFE /* OLL.txt in Resources */,
 				3874FDB62A83E627003FD4D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3874FDC72A83E663003FD4D1 /* CubeOperator.swift in Sources */,
+				3874FDC82A83E663003FD4D1 /* LinkedCubeList.swift in Sources */,
 				3874FDB32A83E627003FD4D1 /* ViewController.swift in Sources */,
 				3874FDAF2A83E627003FD4D1 /* AppDelegate.swift in Sources */,
+				3874FDC92A83E663003FD4D1 /* CubeEngine.swift in Sources */,
 				3874FDB12A83E627003FD4D1 /* SceneDelegate.swift in Sources */,
+				3882E7882A84B93A00EBB841 /* CFOPSolver.swift in Sources */,
+				3874FDCA2A83E663003FD4D1 /* CubePermutator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
